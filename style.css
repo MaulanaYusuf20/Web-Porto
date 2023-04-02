@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+body {
+    justify-content: center;
+    background-color: #111111;
+    color: #f2e8e8;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 0px 300px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #f2e8e8;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav ul a {
+    justify-content: center;
+    text-decoration: none;
+    color: #f2e8e8;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+main {
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.header {
+    font-size: 38px;
+    line-height: 24px;
+    font-weight: 800;
+}
+
+.about-header {
+    text-align: center;
+}
+
+.about-wrapper {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.text {
+    background-color: #383838;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.skills-header {
+    margin-top: 250px;
+    font-size: 32px;
+    font-weight: 800;
+    border-left: 5px solid #383838;
+    padding: 0px 12px;
+}
+
+.skills-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 12px;
+}
+
+.card {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #383838;
+    border-radius: 12px;
+}
+
+.card-wrapper {
+    display: block;
+    padding: 12px;
+}
+
+.card-skills-header {
+    font-size: 24px;
+}
+
+.card-skills-img img{
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.project-header {
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 800;
+    border-left: 5px solid #383838;
+    padding: 0px 12px;
+}
+
+.project-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 12px;
+}
+
+.project-wrapper a {
+    text-decoration: none;
+    color: #f2e8e8;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.card-project-wrapper {
+    padding: 12px;
+}
+
+.card-body {
+    margin-top: 12px;
+}
+
+footer {
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icon {
+    margin-top: 12px;
+}
+
+.footer-header-nav {
+    border-bottom: 2px solid#383838;
+    text-align: right;
+}
+
+.footer-navigation a {
+    text-decoration: none;
+    color: #f2e8e8;
+    text-align: right;
+    line-height: 44px;
+}
+
+.footer-nav a {
+    display: block;
+}
